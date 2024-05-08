@@ -24,6 +24,12 @@
 
 - Services
 
-	
+	Are how you expose an application running on a set of Pods as a network services.
+	Services get their own internal IP address and DNS record.
+
+#### Deployment- use case
+
+
+		
 
 	
