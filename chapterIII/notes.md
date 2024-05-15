@@ -29,7 +29,8 @@
 
 #### Deployment- use case
 
+Handling differents replica using the same file.
 
-		
+
 
 	
