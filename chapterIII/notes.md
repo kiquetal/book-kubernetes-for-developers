@@ -32,5 +32,15 @@
 Handling differents replica using the same file.
 
 
+### Troubleshooting
+
+kubectl port-forward deploy/$DEPLOYMENT_NAME $FROM_PORT:$TO_PORT
+
+### Imperative tip
+
+kubectl create deployment timeserver \
+--image=docker.io/wdennis/timeserver:1
+
+kubectl expose deployment timeserver --type=LoadBalancer --port=80
 
 	
